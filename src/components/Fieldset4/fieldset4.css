@@ -1,0 +1,62 @@
+.f4-content{
+    height: 100;
+ }
+ #f4-description{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #6B6B6B;
+ }
+ .f4-content a  {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1E9CFF;
+ }
+ .timeline-container{
+    padding: 0 10px ;
+    justify-content: center;
+ }
+ .timeline{
+   display: block;
+   width: 100%;
+   background-color: #CCCCCC;
+   height: 3px;
+}
+.speed{
+   height: 3px;
+   background-color: #CAB2D6;
+   margin:auto; 
+   position: relative;
+}
+.speed::before{
+   position: absolute;
+   top: -250%;
+   left: 0%;
+   content: "\2B24";
+   color: #CAB2D6;
+}
+.speed::after{
+   position: absolute;
+   content: "\2B24";
+   color: #CAB2D6;
+   top: -250%;
+   right: 0%;
+}
+ .f4-labels{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-top: 5px;
+}
+.f4-label{
+   color: #4C4C4C;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 12px;
+   line-height: 15px;
+   text-align: center;
+}

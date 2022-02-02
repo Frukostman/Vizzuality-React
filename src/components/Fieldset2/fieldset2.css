@@ -1,0 +1,40 @@
+.chloropleth{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.chloro-card{
+    width: 100%;
+}
+.chloro-color{
+    display: block;
+    min-height: 7px;
+}
+.chloro-tag{
+    color: #565656;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    margin-top: 5px;
+}
+.f2-content{
+    height: 100;
+ }
+  
+ #f2-description{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #6B6B6B;
+ }
+ .f2-content a  {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1E9CFF;
+ }

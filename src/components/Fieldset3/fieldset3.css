@@ -1,0 +1,40 @@
+.conflict-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.conflict{
+    display: flex;
+    align-items: baseline;
+    margin: 2px 10px;
+}
+.conflict .dot::before{
+    content: "\2B24";
+}
+.conflict-name{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #606060;
+    margin-left: 5px;
+}
+.f3-content{
+    height: 100;
+ }
+ #f3-description{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #6B6B6B;
+ }
+ .f3-content a  {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1E9CFF;
+ }
+

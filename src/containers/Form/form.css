@@ -1,0 +1,19 @@
+form{
+    background-color: #FFFFFF;
+    height: fit-content;
+    max-width: 520px;
+    display: block;
+    margin: 10vh auto;
+    padding: 15px;
+}
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+fieldset{
+    border:0 none;
+    background-color: white;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+}

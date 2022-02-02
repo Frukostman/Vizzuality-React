@@ -1,0 +1,18 @@
+a {
+    transition-duration: 0.5s;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    display: block;
+    min-height: 14px;
+    max-width: 18px;
+}
+.icon:hover{
+    cursor: pointer;
+}
+
+

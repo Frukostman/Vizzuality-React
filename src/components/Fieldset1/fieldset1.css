@@ -1,0 +1,37 @@
+.bar{
+   display: block;
+   width: 100%;
+   min-height: 7px;
+}
+.f1-labels{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-top: 5px;
+}
+.f1-label{
+   color: #4C4C4C;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 12px;
+   line-height: 15px;
+   text-align: center;
+}
+.f1-content{
+   height: 100;
+}
+#f1-description{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 12px;
+   line-height: 15px;
+   color: #6B6B6B;
+}
+.f1-content a  {
+   text-decoration: none;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 12px;
+   line-height: 15px;
+   color: #1E9CFF;
+}
